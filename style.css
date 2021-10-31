@@ -140,6 +140,6 @@ body {
     color: #747474;
   }
   #adviceText {
-    font-size: 10px;
+    font-size: 10px !important;
   }
 }

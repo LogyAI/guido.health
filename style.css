@@ -77,7 +77,6 @@ body {
 
 #testimony {
   font-weight: 500;
-  font-size: 18px;
 }
 #tesbox {
   padding: 22px;
@@ -85,9 +84,6 @@ body {
 #stepsection {
   background: #324a5e;
   padding-left: 80px;
-}
-#testimonyGiver {
-  font-size: 18px;
 }
 
 #guidotext {
@@ -123,8 +119,11 @@ body {
   }
   #testimony {
     font-weight: 500;
-    font-size: 12px;
   }
+  #testimonyPrimeChild {
+    display: none;
+  }
+
   #tesbox {
     padding: 16px;
   }
@@ -135,9 +134,6 @@ body {
   #stepsection {
     background: #324a5e;
     padding-left: 0px;
-  }
-  #testimonyGiver {
-    font-size: 12px;
   }
 
   #landingLeft {

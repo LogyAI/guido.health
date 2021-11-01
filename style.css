@@ -74,9 +74,7 @@ body {
   height: 120px;
   margin-top: 30px;
 }
-#testimonybox {
-  height: 480px;
-}
+
 #testimony {
   font-weight: 500;
   font-size: 18px;
@@ -121,7 +119,6 @@ body {
 }
 @media screen and (max-width: 769px) {
   #testimonybox {
-    height: 480px;
     margin-left: 0;
   }
   #testimony {

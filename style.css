@@ -115,7 +115,19 @@ body {
   border-radius: 24px;
   background-size: cover;
 }
+#pose {
+  display: block;
+}
+#pose2 {
+  display: none;
+}
 @media screen and (max-width: 769px) {
+  #pose {
+    display: none;
+  }
+  #pose2 {
+    display: block;
+  }
   #testimonybox {
     margin-left: 0;
   }

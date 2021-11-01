@@ -76,7 +76,6 @@ body {
 }
 #testimonybox {
   height: 480px;
-  margin-left: -80px;
 }
 #testimony {
   font-weight: 500;
@@ -92,12 +91,7 @@ body {
 #testimonyGiver {
   font-size: 18px;
 }
-#testimonyGIFbox {
-  height: 480px;
-}
-#testimonyGIF {
-  height: 100%;
-}
+
 #guidotext {
   font-size: 22px;
   width: 84%;
@@ -148,13 +142,7 @@ body {
   #testimonyGiver {
     font-size: 12px;
   }
-  #testimonyGIFbox {
-    max-width: 100%;
-    height: auto;
-  }
-  #testimonyGIF {
-    width: 100%;
-  }
+
   #landingLeft {
     padding-left: 20px;
   }

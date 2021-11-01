@@ -36,9 +36,9 @@ body {
 #navjoinbtn {
   background: linear-gradient(
     90.27deg,
-    rgba(255, 0, 214, 0.08) 0%,
-    rgba(255, 255, 255, 0.08) 51.04%,
-    rgba(143, 0, 255, 0.08) 100%
+    rgba(255, 0, 214, 0.25) 0%,
+    rgba(255, 255, 255, 0.25) 51.04%,
+    rgba(143, 0, 255, 0.25) 100%
   );
   height: 40px;
   margin-top: 10px;
@@ -63,9 +63,9 @@ body {
 #joinuslanding {
   background: linear-gradient(
     90.27deg,
-    rgba(255, 0, 214, 0.08) 0%,
-    rgba(255, 255, 255, 0.08) 51.04%,
-    rgba(143, 0, 255, 0.08) 100%
+    rgba(255, 0, 214, 0.25) 0%,
+    rgba(255, 255, 255, 0.25) 51.04%,
+    rgba(143, 0, 255, 0.25) 100%
   );
   font-weight: 500;
 }
@@ -119,6 +119,11 @@ body {
 }
 #paraIcon {
   height: 80px;
+}
+#bgmtn {
+  background: url(/img/mountain.jpg);
+  border-radius: 24px;
+  background-size: cover;
 }
 @media screen and (max-width: 769px) {
   #testimonybox {

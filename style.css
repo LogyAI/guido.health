@@ -20,7 +20,7 @@ body {
   margin: 0;
 }
 .gradient-text {
-  background-image: linear-gradient(45deg, #ff00d6, #6c8dd0, #298e3e, #fab819);
+  background-image: linear-gradient(130deg, #ff00d6, #6c8dd0, #298e3e, #fab819);
   background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
@@ -50,6 +50,7 @@ body {
 }
 #joinusnav {
   font-weight: 500;
+  color: #6500b5;
 }
 #landing {
   border-left: solid 40px #324a5e;
@@ -68,6 +69,7 @@ body {
     rgba(143, 0, 255, 0.25) 100%
   );
   font-weight: 500;
+  color: #6500b5;
 }
 #serviceicon {
   width: 120px;

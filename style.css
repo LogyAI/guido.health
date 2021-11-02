@@ -35,11 +35,11 @@ body {
   background: #6c8dd0;
 }
 #navjoinbtn {
-  background: linear-gradient(90.27deg, #49f3ed 0%, #2bd9d3 100%);
+  background: #324a5e;
   height: 40px;
   margin-top: 10px;
   font-size: 18px;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 #navitem {
   height: 40px;
@@ -60,7 +60,7 @@ body {
 #landingRight {
 }
 #joinuslanding {
-  background: linear-gradient(90.27deg, #49f3ed 0%, #2bd9d3 100%);
+  background: #324a5e;
   font-weight: 500;
   color: #fff;
 }

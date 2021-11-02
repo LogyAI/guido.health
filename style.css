@@ -21,7 +21,7 @@ body {
   margin: 0;
 }
 .gradient-text {
-  background-image: linear-gradient(130deg, #ff00d6, #6c8dd0, #298e3e, #fab819);
+  background-image: linear-gradient(130deg, #ff00d6, #6c8dd0);
   background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
@@ -35,15 +35,11 @@ body {
   background: #6c8dd0;
 }
 #navjoinbtn {
-  background: linear-gradient(
-    90.27deg,
-    rgba(255, 0, 214, 0.25) 0%,
-    rgba(255, 255, 255, 0.25) 51.04%,
-    rgba(143, 0, 255, 0.25) 100%
-  );
+  background: linear-gradient(90.27deg, #2bd9d3 0%, #24bbb6 100%);
   height: 40px;
   margin-top: 10px;
   font-size: 18px;
+  color: white;
 }
 #navitem {
   height: 40px;
@@ -51,7 +47,7 @@ body {
 }
 #joinusnav {
   font-weight: 500;
-  color: #6500b5;
+  color: #fff;
 }
 #landing {
   border-left: solid 40px #324a5e;
@@ -63,14 +59,9 @@ body {
 #landingRight {
 }
 #joinuslanding {
-  background: linear-gradient(
-    90.27deg,
-    rgba(255, 0, 214, 0.25) 0%,
-    rgba(255, 255, 255, 0.25) 51.04%,
-    rgba(143, 0, 255, 0.25) 100%
-  );
+  background: linear-gradient(90.27deg, #2bd9d3 0%, #24bbb6 100%);
   font-weight: 500;
-  color: #6500b5;
+  color: #fff;
 }
 #serviceicon {
   width: 120px;

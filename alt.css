@@ -1,0 +1,14 @@
+body {
+  overflow-x: hidden;
+}
+
+.box {
+  opacity: 0.01;
+  transform: translatey(50%);
+  transition: transform 1s ease-out;
+}
+
+.box.show {
+  transform: translatey(0);
+  opacity: 1;
+}

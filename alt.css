@@ -12,3 +12,25 @@ body {
   transform: translatey(0);
   opacity: 1;
 }
+
+.boxRight {
+  opacity: 0;
+  transform: translatex(-50%);
+  transition: transform 1s ease-out;
+}
+
+.boxRight.show {
+  transform: translatex(0);
+  opacity: 1;
+}
+
+.boxLeft {
+  opacity: 0.01;
+  transform: translatex(-50%);
+  transition: transform 1s ease-out;
+}
+
+.boxLeft.show {
+  transform: translatex(0);
+  opacity: 1;
+}

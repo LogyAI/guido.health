@@ -15,7 +15,7 @@ body {
 
 .boxRight {
   opacity: 0;
-  transform: translatex(-50%);
+  transform: translatex(-100%);
   transition: transform 1s ease-out;
 }
 
@@ -26,7 +26,7 @@ body {
 
 .boxLeft {
   opacity: 0.01;
-  transform: translatex(-50%);
+  transform: translatex(-100%);
   transition: transform 1s ease-out;
 }
 

@@ -15,7 +15,7 @@ body {
 
 .boxRight {
   opacity: 0;
-  transform: translatex(100%);
+  transform: translatey(50%);
   transition: transform 1s ease-out;
 }
 

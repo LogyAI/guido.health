@@ -35,7 +35,7 @@ body {
   background: #6c8dd0;
 }
 #navjoinbtn {
-  background: linear-gradient(90.27deg, #2bd9d3 0%, #24bbb6 100%);
+  background: linear-gradient(90.27deg, #49f3ed 0%, #2bd9d3 100%);
   height: 40px;
   margin-top: 10px;
   font-size: 18px;
@@ -59,10 +59,11 @@ body {
 #landingRight {
 }
 #joinuslanding {
-  background: linear-gradient(90.27deg, #2bd9d3 0%, #24bbb6 100%);
+  background: linear-gradient(90.27deg, #49f3ed 0%, #2bd9d3 100%);
   font-weight: 500;
   color: #fff;
 }
+
 #serviceicon {
   width: 120px;
   height: 120px;

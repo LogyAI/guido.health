@@ -12,6 +12,15 @@ body {
   transform: translatey(0);
   opacity: 1;
 }
+.box.serviceBox {
+  opacity: 0.01;
+  transform: translatey(50%) scale(0.5);
+  transition: transform 1s ease-out;
+}
+.box.show.serviceBox {
+  transform: translatey(0%) scale(0.9);
+  opacity: 1;
+}
 
 .boxRight {
   opacity: 0;

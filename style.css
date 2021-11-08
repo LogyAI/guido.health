@@ -35,11 +35,15 @@ body {
   background: #6c8dd0;
 }
 #navjoinbtn {
-  background: #324a5e;
+  color: #712b8f;
+  background: linear-gradient(
+    90.27deg,
+    rgba(255, 0, 214, 0.15) 0%,
+    rgba(108, 141, 208, 0.15) 100%
+  );
   height: 40px;
   margin-top: 10px;
   font-size: 18px;
-  color: rgb(255, 255, 255);
 }
 #navitem {
   height: 40px;
@@ -47,7 +51,7 @@ body {
 }
 #joinusnav {
   font-weight: 500;
-  color: #fff;
+  color: #712b8f;
 }
 #landing {
   border-left: solid 40px #324a5e;
@@ -60,9 +64,13 @@ body {
 #landingRight {
 }
 #joinuslanding {
-  background: #324a5e;
+  background: linear-gradient(
+    90.27deg,
+    rgba(255, 0, 214, 0.15) 0%,
+    rgba(108, 141, 208, 0.15) 100%
+  );
   font-weight: 500;
-  color: #fff;
+  color: #712b8f;
 }
 
 #serviceicon {

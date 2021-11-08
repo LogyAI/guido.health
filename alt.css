@@ -14,11 +14,11 @@ body {
 }
 .box.serviceBox {
   opacity: 0.01;
-  transform: translatey(50%) scale(0.5);
+  transform: translatey(50%) scale(0.3);
   transition: transform 1s ease-out;
 }
 .box.show.serviceBox {
-  transform: translatey(0%) scale(0.9);
+  transform: translatey(0%) scale(0.8);
   opacity: 1;
 }
 

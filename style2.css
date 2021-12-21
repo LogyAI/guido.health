@@ -149,6 +149,8 @@ body {
     background: #324a5e;
     padding-left: 0px;
     padding-right: 0;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
   }
 
   #landingLeft {

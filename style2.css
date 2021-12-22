@@ -87,7 +87,13 @@ body {
 }
 
 #landingImgBox {
-  background: #000;
+  background: url(img/health.gif);
+
+  background-size: cover;
+  background-position: center;
+}
+#insidelandingBox {
+  background: rgba(0, 0, 0, 0.85);
 }
 
 #serviceicon {

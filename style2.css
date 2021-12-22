@@ -8,6 +8,25 @@ body {
   background: rgb(255, 255, 255);
   box-shadow: 0px 2px 10px #6c8dd05b;
 }
+#navpc2 {
+  height: 60px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px -2px 10px #6c8dd05b;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#joinuslanding {
+  background: #313131;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 50px;
+  text-decoration: none;
+  height: 50px;
+  width: 100%;
+  padding-right: 25%;
+  padding-left: 25%;
+  border-radius: 12px;
+}
 #advice {
   background: #6c8dd0;
 }
@@ -69,11 +88,6 @@ body {
 
 #landingImgBox {
   background: #000;
-}
-#joinuslanding {
-  background: #313131;
-  font-weight: 500;
-  color: #ffffff;
 }
 
 #serviceicon {

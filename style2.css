@@ -78,6 +78,9 @@ body {
   font-weight: 500;
   color: #712b8f;
 }
+#steps {
+  width: 90%;
+}
 #landing {
   border-left: solid 40px #324a5e;
   border-right: solid 40px #324a5e;

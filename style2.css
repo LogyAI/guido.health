@@ -55,6 +55,9 @@ body {
   padding-left: 25%;
   border-radius: 12px;
 }
+#pcnot {
+  display: none;
+}
 #advice {
   background: #313131;
 }
@@ -143,6 +146,7 @@ body {
 }
 #tesbox {
   padding: 22px;
+  border-radius: 24px 0 0 24px;
 }
 #stepsection {
   background: #324a5e;
@@ -158,6 +162,9 @@ body {
 }
 #sizedBox {
   height: 100px;
+}
+#testi {
+  text-align: start;
 }
 #paraValue {
   padding: 0;
@@ -184,18 +191,23 @@ body {
   display: none;
 }
 #testimonialImage {
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
+  width: 80%;
+  border-radius: 24px 24px 24px 0;
 }
 #testimonialRight {
-  transform: translateX(-70px);
+  transform: translateX(0px);
 }
 #testimonialrightColumn {
-  background: #d6fff4;
-  border-radius: 0px 24px 24px 48px;
+  background: #ffffff;
+  border-radius: 0px 24px 24px 0;
+}
+#trainerTexts {
+  text-align: start;
 }
 @media screen and (max-width: 769px) {
+  #trainerTexts {
+    text-align: center;
+  }
   #pose {
     display: none;
   }
@@ -211,9 +223,16 @@ body {
   #testimonyPrimeChild {
     display: none;
   }
-
+  #pcnot {
+    display: block;
+  }
+  #testi {
+    text-align: center;
+  }
   #tesbox {
     padding: 16px;
+    padding-bottom: 0;
+    border-radius: 24px 24px 54px 24px;
   }
   #landing {
     border-left: solid 0px #324a5e;
@@ -260,15 +279,70 @@ body {
     color: rgb(231, 231, 231);
   }
   #testimonialRight {
-    transform: translateX(0px);
+    text-align: center;
     text-align: end;
-    margin-top: -140px;
   }
   #testimonialrightColumn {
+    text-align: center;
     background: #ffffff;
     border-radius: 0px 20px 20px 0px;
   }
   #testimonialImage {
+    width: 100px;
+    height: 100px;
     margin-right: 6px;
+    border-radius: 100%;
   }
+}
+
+.MultiCarousel {
+  float: left;
+  overflow: hidden;
+  padding: 15px;
+  width: 100%;
+  position: relative;
+}
+.MultiCarousel .MultiCarousel-inner {
+  transition: 1s ease all;
+  float: left;
+}
+.MultiCarousel .MultiCarousel-inner .item {
+  float: left;
+}
+.MultiCarousel .MultiCarousel-inner .item > div {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  color: #666;
+}
+.MultiCarousel .leftLst,
+.MultiCarousel .rightLst {
+  position: absolute;
+  border-radius: 50%;
+  top: calc(50% - 20px);
+}
+/******* Bnt Full********
+.MultiCarousel .leftLst, .MultiCarousel .rightLst {
+    position: absolute;
+    border-radius: 50%; 
+    height: 80%;
+    top: 24px;
+}**/
+
+.MultiCarousel .leftLst {
+  left: 0;
+}
+.MultiCarousel .rightLst {
+  right: 0;
+}
+
+.MultiCarousel .leftLst.over,
+.MultiCarousel .rightLst.over {
+  pointer-events: none;
+  background: #6c8dd031;
+  color: rgba(0, 0, 0, 0.212);
+}
+.btn-primaryMade {
+  background: #6c8dd0;
+  color: #ffffff;
 }
